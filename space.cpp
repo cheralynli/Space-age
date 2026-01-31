@@ -14,7 +14,7 @@ double ages(double age,std::string planet) {
         {"Saturn",29.447498},
         {"Uranus",84.016846},
         {"Neptune",164.79132}
-    }
+    };
     return planets[planet]*age/31557600;
 }
 
